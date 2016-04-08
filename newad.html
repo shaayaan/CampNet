@@ -1,0 +1,41 @@
+<?php
+// Start the session
+session_start();
+?>
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>New Ad</title>
+</head>
+<body id="body-color">
+<div id="Login">
+<fieldset style="width:30%"><legend>New Ad</legend>
+<table border="0">
+<tr> 
+<form method="POST" action="newad.php" enctype="multipart/form-data">
+<!-- 
+<tr>
+<td>user_id</td><td> <input type="text" name="user_id"></td>
+</tr>
+-->
+<tr>
+<td>Title</td><td> <input type="text" name="title"></td>
+</tr>
+<tr>
+<td>Description </td><td><input type="text" name="description"></td>
+</tr>
+<tr>
+<td>upload photo</td><td><input type="file" name="upload_photo"></td> 
+</tr>
+<tr>
+<td>Cost </td><td><input type="int" name="cost"></td>
+</tr>
+<tr>
+<td><input id="button" type="submit" name="submit" value="newad"></td>
+</tr>
+</form>
+</table>
+</fieldset>
+</div>
+</body>
+</html>

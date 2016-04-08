@@ -1,0 +1,96 @@
+<?php
+// Start the session
+session_start();
+?>
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    
+    
+    
+		
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+  
+  
+
+    <body class="align">
+
+  <div class="site__container">
+
+    <div class="grid__container">
+
+      <form  method="POST" action="signup.php" class="form form--login">
+
+        <div class="form__field">
+          <label class="fontawesome-user" for="login__username"><span class="hidden">Username</span></label>
+          <input name = "username" id="login__username" type="text" class="form__input" placeholder="Username" required>
+        </div>
+		
+		<div class="form__field">
+          <label class="fontawesome-lock" for="login__password"><span class="hidden">Password</span></label>
+          <input name="email" id="login__password" type="text" class="form__input" placeholder="Email" required>
+        </div>
+
+        <div class="form__field">
+          <label class="fontawesome-lock" for="login__password"><span class="hidden">Password</span></label>
+          <input name="password" id="login__password" type="password" class="form__input" placeholder="Password" required>
+        </div>
+		
+		<div class="form__field">
+          <label class="fontawesome-lock" for="login__password"><span class="hidden">Password</span></label>
+          <input name="password2" id="login__password" type="password" class="form__input" placeholder="Again Password" required>
+        </div>
+		
+		<div class="form__field">
+          <label class="fontawesome-user" for="login__password"><span class="hidden">Password</span></label>
+          <input name="name" id="login__password" type="text" class="form__input" placeholder="Full Name" required>
+        </div>
+		
+		
+		<div class="form__field">
+          <label class="fontawesome-lock" for="login__password"><span class="hidden">Password</span></label>
+          <input name="college" id="login__password" type="text" class="form__input" placeholder="College" required>
+        </div>
+		
+		
+		<div class="form__field">
+          <label class="fontawesome-lock" for="login__password"><span class="hidden">Password</span></label>
+          <input name="branch" id="login__password" type="text" class="form__input" placeholder="Branch" required>
+        </div>
+		
+		<div class="form__field">
+          <label class="fontawesome-lock" for="login__password"><span class="hidden">Password</span></label>
+          <input name="year" id="login__password" type="text" class="form__input" placeholder="Year" required>
+        </div>
+		
+		
+
+        <div class="form__field">
+          <input type="submit" name="submit" value="Sign Up">
+        </div>
+
+      </form>
+
+      <p class="text--center">Already a member? <a href="#">Sign in</a> <span class="fontawesome-arrow-right"></span></p>
+
+    </div>
+
+  </div>
+
+</body>
+    
+    
+    
+    
+    
+  </body>
+</html>
